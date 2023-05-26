@@ -1,0 +1,272 @@
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories h3{
+    color: #21313c;
+    font-size: 25px;
+
+}
+
+.icons i{
+    margin-left: 30px;
+    background-color: #ecf0ef;
+    color: gray;
+
+}
+
+.card{
+    padding: 32px 16px;
+
+}
+.card img{
+    width: 100%;
+    margin-bottom: 12px;
+
+}
+
+.card h2{
+    color: #21313c;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+
+.card2-1{
+    background-image: url("/photos/grocery-banner.png");
+    background-position: center;
+    background-size: cover;
+    padding: 48px 32px ; 
+    background-image: 100%;
+    border-radius:10px;
+    margin-top: 50px;
+}
+
+.card2{
+    background-image: url("/photos/grocery-banner-2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 48px 32px ; 
+    background-image: 100%;
+    border-radius:10px;
+    margin-top: 50px;
+}
+
+.card2 h3{
+    color: #21313c;
+    font-size: 25px;
+    margin-bottom: 4px;
+
+}
+
+.card2 p{
+    color: #5c6c75;
+    font-size: 14px;
+    margin-bottom: 16px;
+
+}
+
+.card2 a{
+    color: #fff;
+    font-size: 14px;
+    background-color: #001e2b;
+    padding: 9px 16px;
+    border-radius: 15px;
+
+}
+
+.card2-1 h3{
+    color: #21313c;
+    font-size: 25px;
+    margin-bottom: 4px;
+
+}
+
+.card2-1 p{
+    color: #5c6c75;
+    font-size: 14px;
+    margin-bottom: 16px;
+
+}
+
+.card2-1 a{
+    color: #fff;
+    font-size: 14px;
+    background-color: #001e2b;
+    padding: 9px 16px;
+    border-radius: 15px;
+
+}
+
+.products{
+    margin: 50px 0;
+
+}
+.products h3{
+    color: #21313c;
+    font-size: 25px;
+
+}
+
+.card-3 {
+    border: 1px solid #dde0e3;
+    padding: 16px;
+    border-radius: 5px;
+
+}
+.card-3 img{
+    width: 100%;
+
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price p{
+    color: #5c6c75;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.price a{
+    color: #fff;
+    font-size: 13px;
+    background-color: #0aad0a;
+    padding: 4px 8px ;
+    border-radius: 5px;
+
+}
+
+
+.info h5{
+    color: #889397;
+    font-size: 13px;
+
+}
+
+.info a{
+    color: #21313c;
+    font-size: 14px;
+    font-weight:600;
+}
+
+.stars{
+    margin-top: 7px;
+    margin-bottom: 18px;
+    font-size: 10px;
+    color: goldenrod;
+}
+.stars span{
+    color: #889397;
+    font-size: 13px;
+
+}
+
+.third{
+    margin-bottom: 150px;
+}
+
+.card-first{
+    position: relative;
+}
+.card-3{
+    position: relative;
+}
+.icons2{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: .5s;
+}
+
+.card-3:hover .icons2{
+    opacity: 1;
+}
+
+.card-3:hover{
+    border-color: #0aad0a;
+}
+
+
+.icons2 i{
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 7px;
+    transition: 0.5s;
+    
+
+}
+
+.icons2 i:hover{
+    cursor: pointer;
+    background-color: #0aad0a;
+    color: #fff;
+}
+
+.sale{
+    position: absolute;
+    
+}
+.sale a{
+    color: #fff;
+    background-color: #db3030;
+    font-size: 10px;
+    padding: 4px 7px;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
+.card-second{
+    position: relative;
+}
+
+.discount{
+    position: absolute;
+}
+
+.discount a{
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #198754;
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+
+.card-third{
+    position: relative;
+}
+
+.hot{
+    position: absolute;
+    
+}
+.hot a{
+    color: #fff;
+    background-color: #db3030;
+    font-size: 10px;
+    padding: 4px 7px;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
+.card-six{
+    position: relative;
+}
+
+
+
+
+
+
